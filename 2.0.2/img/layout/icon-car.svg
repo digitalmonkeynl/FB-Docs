@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="39px" viewBox="0 0 79 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-car</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ORC_landing_2" transform="translate(-277.000000, -740.000000)">
+            <g id="icon-car" transform="translate(279.000000, 741.000000)">
+                <ellipse id="XMLID_380_" fill="#62B4E8" opacity="0.1" cx="16.9354839" cy="30.030112" rx="6.0483871" ry="6.08893557"></ellipse>
+                <ellipse id="XMLID_408_" fill="#62B4E8" opacity="0.1" cx="59.2741935" cy="30.030112" rx="6.0483871" ry="6.08893557"></ellipse>
+                <path d="M41.733871,0.803221289 L27.2177419,0.803221289 C26.7828629,0.803221289 26.3697581,0.817834734 25.9711694,0.842190476 C20.9800403,7.49800595 20.5645161,11.7633053 20.5645161,11.7633053 L56.25,11.7633053 C56.25,11.7633053 49.21875,0.803221289 41.733871,0.803221289 L41.733871,0.803221289 Z" id="XMLID_443_" fill="#62B4E8" opacity="0.1"></path>
+                <ellipse id="XMLID_578_" stroke="#050E39" stroke-width="2.5" cx="16.9354839" cy="30.030112" rx="6.0483871" ry="6.08893557"></ellipse>
+                <ellipse id="XMLID_592_" stroke="#050E39" stroke-width="2.5" cx="59.2741935" cy="30.030112" rx="6.0483871" ry="6.08893557"></ellipse>
+                <path d="M53.2258065,29.952381 L22.983871,29.952381" id="XMLID_594_" stroke="#050E39" stroke-width="3"></path>
+                <path d="M10.8870968,30.1078431 L7.25806452,30.1078431 C3.26612903,30.1078431 0,26.8198179 0,22.8011204 L0,17.929972 C0,14.5810574 2.72177419,11.8410364 6.0483871,11.8410364 L9.67741935,11.8410364 C17.8427419,11.8410364 14.3649194,0.880952381 27.2177419,0.880952381 L41.733871,0.880952381 C49.21875,0.880952381 56.25,11.8410364 56.25,11.8410364 L64.1129032,13.6677171 C73.7903226,16.1032913 75,15.4182861 75,22.8011204 L75,22.8011204 C75,26.2261467 72.0514113,30.1078431 67.7419355,30.1078431 L65.3225806,30.1078431" id="XMLID_9_" stroke="#050E39" stroke-width="2.5"></path>
+                <path d="M0,21 L4.83870968,21" id="XMLID_6_" stroke="#050E39" stroke-width="3"></path>
+                <rect id="Rectangle-26" fill="#050E39" x="71" y="19" width="4" height="3"></rect>
+                <path d="M56.25,11.7633053 L20.5645161,11.7633053 C20.5645161,11.7633053 20.9800403,7.47730357 26.0080645,0.791043417" id="XMLID_7_" stroke="#050E39" stroke-width="2.5"></path>
+                <path d="M34.4117647,0.803221289 L34.4117647,11.7633053" id="XMLID_10_" stroke="#050E39" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

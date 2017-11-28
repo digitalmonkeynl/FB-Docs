@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 39 (31443) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <path d="M825,323.55123 L820.856967,319.408197 C821.644672,318.32623 822.114754,316.998361 822.114754,315.557377 C822.114754,311.935656 819.179098,309 815.557377,309 C811.935656,309 809,311.935656 809,315.557377 C809,319.179098 811.935656,322.114754 815.557377,322.114754 C816.998361,322.114754 818.32623,321.644672 819.408197,320.856967 L823.55123,325 L825,323.55123 L825,323.55123 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="16" height="16" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="design_support_2" transform="translate(-809.000000, -309.000000)" stroke="#FFFFFF" stroke-width="4">
+            <use id="Shape" mask="url(#mask-2)" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+{
+    "status" : "error",
+    "errors" : [{"fieldname" : "title", "message" : "nope!"}, {"fieldname" : "firstname", "message" : "nope!"},{"fieldname" : "asdf", "message" : "nope!"}],
+    "general" : "Er is een fout opgetreden"
+}

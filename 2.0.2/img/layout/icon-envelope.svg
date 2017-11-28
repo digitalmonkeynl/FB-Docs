@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="23px" viewBox="0 0 35 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Env</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile_1_Two_Addresses" transform="translate(-194.000000, -682.000000)" fill-rule="nonzero" fill="#050E39">
+            <g id="envelope" transform="translate(194.000000, 682.000000)">
+                <path d="M34.453125,0 L0.546875,0 C0.21875,0 0,0.219047619 0,0.547619048 L0,22.452381 C0,22.7809524 0.21875,23 0.546875,23 L34.453125,23 C34.78125,23 35,22.7809524 35,22.452381 L35,0.547619048 C35,0.219047619 34.78125,0 34.453125,0 Z M32.9765625,1.0952381 L17.5,14.0738095 L2.0234375,1.0952381 L32.9765625,1.0952381 Z M1.09375,21.9047619 L1.09375,1.69761905 L17.5,15.497619 L33.90625,1.69761905 L33.90625,21.9047619 L1.09375,21.9047619 Z" id="Env"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no">
+		
+		<title>LE: </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" type="image/ico" href="2.0.2/img/favicon.ico" />
+		<meta property="og:site_name" content="FLYINGBLUE.com" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="" />
+		<meta property="og:description" content="" />
+		<meta property="article:author" content="Flying Blue" />
+		<meta property="og:image" content="" />
+
+		<!-- MAIN CSS -->
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="2.0.2/css/style.css?v=2.1" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<script src="2.0.2/core.js"></script>
+		<script>
+			var FB = FB || {};
+			FB.config = {
+				language: 'nl',
+				country: 'nl',
+				airline: 'af',
+				pos: 'nl'
+			};
+		</script>
+
+
+
+
+	</head>
+
+<body>
+<div class="skip-nav" tabindex="-1">
+	<ul class="grid-container">
+		<li><a href="#main-content">Skip to main content</a></li>
+		<li><a href="#" onclick="getfocusSearch()">Skip to search</a></li>
+		<li><a href="#main-navigation" class="">Skip to navigation</a></li>
+		<li><a href="/earn-miles.html" class="">Skip to Earn Miles</a></li>
+		<li><a href="/spend-miles.html" class="">Skip to Spend Miles</a></li>
+		<li><a href="/buy-and-transfer-miles.html" class="">Skip to Buy & Transfer Miles</a></li>
+	</ul>
+</div>
+<div class="mobile-push">
+
+
+<div class="grid-container grid-indent">
+	<div class="fb-process-wrapper fb-clear">
+		<h1 style="float:left; padding-top:10px;">Join Flying Blue</h1>
+
+		<ol class="fb-process fb-clear"> <!--  data-components='[{"path": "fb/form/progress"}]'>-->
+			<li class="fb-process-step fb-process-step-active"><div class="fb-process-step-count">1</div><span class="hide-on-mobile">Personal</span></li>
+			<li class="fb-process-step"><div class="fb-process-step-count">2</div><span class="hide-on-mobile">Contact</span></li>
+			<li class="fb-process-step"><div class="fb-process-step-count">3</div><span class="hide-on-mobile">Security</span></li>
+		</ol>
+	</div>
+	<!--form class="js-fb-init" method="post" action="/src/api/account/enroll.json" data-components='[{"path": "fb/form-validate"}]'-->
+
+	<form class="js-fb-init" method="get" action="/src/api/account/enroll.json" data-components='[{"path": "fb/form/validate"}]'>
+
+		<fieldset data-order="0">
+			<legend><h2 class="fb-form-section">Personal details</h2></legend>
+			<div>
+				<label for="title" class="fb-form-label fb-form-label-required">Title</label>
+				<div class="fb-form-field-wrapper">
+					<select name="title" id="title" class="fb-form-dropdown" required>
+						<option value="">Select</option>
+						<option value="Mr.">Mr.</option>
+						<option value="Mrs.">Mrs.</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label for="firstname" class="fb-form-label">First name</label>
+				<div class="fb-form-field-wrapper">
+					<input id="firstname" type="text" name="firsname" maxlength="30" placeholder="Enter your details" class="fb-application-textfield fb-form-textfield">
+					<!--div class="fb-form-error" style="display:block;">This field is required</div-->
+				</div>
+			</div>
+			<div>
+				<label for="familyname" class="fb-form-label fb-form-label-required">Family name</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="familyname" id="familyname" maxlength="30" placeholder="Enter your details" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+				<div class="fb-form-extra">Fill in your first and family name exactly as stated in your passport</div>
+			</div>
+
+			<div>
+				<label for="dateofbirth" class="fb-form-label fb-form-label-required">Date of birth</label>
+				<div class="fb-form-field-wrapper">
+					<select id="dateofbirth" name="dob[day]" class="fb-form-dropdown fb-form-dropdown-days" required data-hide-messages="yes">
+						<option value="">Day</option>
+						<option value="1">1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+						<option>32</option>
+					</select>
+					<select class="fb-form-dropdown fb-form-dropdown-months" name="dob[month]" required data-hide-messages="yes">
+						<option value="">Month</option>
+						<option value="1">January</option>
+						<option>February</option>
+						<option>March</option>
+						<option>April</option>
+						<option>May</option>
+						<option>June</option>
+						<option>July</option>
+						<option>August</option>
+						<option>September</option>
+						<option>Oktober</option>
+						<option>November</option>
+						<option>December</option>
+					</select>
+					<select class="fb-form-dropdown fb-form-dropdown-years" name="dob[year]" required data-hide-messages="yes">
+						<option value="">Year</option>
+						<option value="1989">1989</option>
+						<option>1988</option>
+						<option>1987</option>
+						<option>1986</option>
+						<option>1985</option>
+						<option>1984</option>
+						<option>1983</option>
+					</select>
+				</div>
+			</div>
+			<div class="fb-form-button-wrapper">
+				<button class="fb-btn fb-btn--forward fb-form-next"><span>Next to Contact</span></button>
+			</div>
+
+		</fieldset>
+
+		<fieldset data-order="1" style="display: none;">
+			<legend><h2 class="fb-form-section">Contact details</h2></legend>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Country</label>
+				<div class="fb-form-field-wrapper">
+					<select class="fb-form-dropdown" name="country" required>
+						<option value="">Choose</option>
+						<option value="NL">The Netherlands</option>
+						<option>The Netherlands</option>
+						<option>The Netherlands</option>
+						<option>The Netherlands</option>
+						<option>The Netherlands</option>
+						<option>The Netherlands</option>
+						<option>The Netherlands</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Address</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="address" maxlength="60" placeholder="Somewherestreet 1" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Postal code</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="zipcode" placeholder="1234 AB" class="fb-application-textfield fb-form-textfield-medium" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">City</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="city" placeholder="Sometown" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Prefered language</label>
+				<div class="fb-form-field-wrapper">
+					<select name="language" class="fb-form-dropdown" required>
+						<option value="">Choose</option>
+						<option value="NL">Dutch</option>
+						<option>English</option>
+						<option>French</option>
+						<option>German</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">E-mail address</label>
+				<div class="fb-form-field-wrapper">
+					<input pattern=".+@.+\..+" type="email" name="email" placeholder="example@email.com" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label">Mobile phone</label>
+				<div class="fb-form-field-wrapper">
+					<input pattern="[^A-Za-z]+" type="phone" name="mobile" placeholder="+31" class="fb-application-textfield fb-form-textfield">
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label">Telephone</label>
+				<div class="fb-form-field-wrapper">
+					<input pattern="[^A-Za-z]+" type="phone" name="phone" placeholder="+31" class="fb-application-textfield fb-form-textfield">
+				</div>
+			</div>
+			<div class="fb-form-button-wrapper">
+				<button class="fb-btn fb-btn--back fb-form-back"><span>Back</span></button>
+				<button class="fb-btn fb-btn--forward fb-form-next"><span>Next to Security details</span></button>
+			</div>
+
+		</fieldset>
+
+		<fieldset data-order="2" style="display: none;">
+			<legend><h2 class="fb-form-section">Security details</h2></legend>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">PIN code</label>
+				<div class="fb-form-field-wrapper">
+					<input id="fb-enroll-pin" maxlength="4" required pattern="[0-9]{4}" type="password" name="pin" placeholder="4 digits" class="fb-application-textfield fb-form-textfield">
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Confirm PIN code</label>
+				<div class="fb-form-field-wrapper">
+					<input maxlength="4" required pattern="[0-9]{4}" data-compare-with='fb-enroll-pin' type="password" name="pin_check" placeholder="4 digits" class="fb-application-textfield fb-form-textfield">
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Security question</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="security" placeholder="For example: What's your favorite pop/rock band?" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label fb-form-label-required">Answer</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="security_answer" placeholder="\m/" class="fb-application-textfield fb-form-textfield" required>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label">Promotional code</label>
+				<div class="fb-form-field-wrapper">
+					<input type="text" name="promo" class="fb-application-textfield fb-form-textfield">
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label"></label>
+				<div class="fb-form-field-wrapper">
+					<div class="fb-form-rule"><input type="checkbox" id="newsletter" class="fb-checkbox" name="newsletter"> <label for="newsletter">I want to receive the Flying Blue newsletter</label></div>
+				</div>
+			</div>
+			<div>
+				<label for="" class="fb-form-label"></label>
+				<div class="fb-form-field-wrapper">
+					<div class="fb-form-rule"><input type="checkbox" id="terms" class="fb-checkbox" name="terms" required> <label for="terms">I accept the Therms and Conditions</label></div>
+					<ul class="fb-application-linklist">
+						<li class="fb-application-linklist-listitem"><a href="#" class="fb-application-linklist-link">Read about our privacy statement</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="fb-form-button-wrapper">
+				<button class="fb-btn fb-btn--back"><span>Back</span></button>
+				<button type="submit" class="fb-btn fb-btn-primary"><span>Enroll</span></button>
+			</div>
+		</fieldset>
+	</form>
+</div>
+
+
+
+<!-- OUR JAVASCRIPT SETUP -->
+<script src="2.0.2/js/plugins.js"></script>
+<script src="2.0.2/js/custom.js"></script>
+<script src="2.0.2/js/bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+define("fb/scroll",["fb/jquery","fb/window-events"],function(o,n){"use strict";var t=o(".fb-scroll-back-to-top"),c=function(n){n.preventDefault(),o("body,html").animate({scrollTop:0},800)},l=function(o,n){n.scrollTop>100?t.fadeIn():t.fadeOut()};return{init:function(){o(".fb-scroll-back-to-top").on("click",c),n.onScroll(l)}}});

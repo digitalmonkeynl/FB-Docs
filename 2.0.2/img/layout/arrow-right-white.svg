@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="12px" viewBox="0 0 17 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.5 (25218) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="arrow-right" sketch:type="MSLayerGroup" fill="#FFFFFF">
+            <g id="DESIGNS" sketch:type="MSShapeGroup">
+                <g id="design_login_page">
+                    <path d="M4.128571,4.8 L6.933571,2.028 C7.172786,1.7916 7.285714,1.5096 7.285714,1.2 C7.285714,0.6096 6.792107,0 6.071429,0 C5.749036,0 5.467929,0.1158 5.233571,0.348 L0.401929,5.1228 C0.202786,5.3196 0,5.5626 0,6 C0,6.4374 0.169393,6.648 0.392214,6.8682 L5.233571,11.652 C5.467929,11.8842 5.749036,12 6.071429,12 C6.792714,12 7.285714,11.3904 7.285714,10.8 C7.285714,10.4904 7.172786,10.2084 6.933571,9.972 L4.128571,7.2 L15.785714,7.2 C16.456,7.2 17,6.6624 17,6 C17,5.3376 16.456,4.8 15.785714,4.8 L4.128571,4.8 Z" id="Shape" transform="translate(8.500000, 6.000000) scale(-1, 1) translate(-8.500000, -6.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

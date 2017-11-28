@@ -1,0 +1,138 @@
+.fb-settings{
+border:1px solid #e3e9ee;
+-webkit-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15);
+-moz-box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15);
+box-shadow:5px 5px 10px 0px rgba(0,0,0,0.15);
+padding:20px 20px;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+border-radius:4px;
+z-index:900;
+position:absolute;
+top:30px;
+right:0px;
+width:300px;
+background-color:#fff;
+}
+.fb-settings-close{
+font-size:20px;
+position:absolute;
+right:10px;
+top:5px;
+color:#bec3c7;
+}
+.fb-settings-close:hover{
+color:#52b7e8;
+}
+.fb-settings-title{
+display:block;
+font-weight:bold;
+padding-bottom:5px;
+font-size:14px;
+}
+.fb-settings-country,
+.fb-settings-airline{
+margin:10px 0 20px;
+}
+.fb-forms-selectbox{
+outline:0;
+font-size:12px;
+margin:0 0 15px 0;
+line-height:15px;
+width:100%;
+outline:none;
+padding:6px 6px 6px 6px;
+border:1px solid #bec3c7;
+border-radius:2px;
+-webkit-appearance:none;
+-moz-appearance:none;
+appearance:none;
+-webkit-appearance:none;
+background-image:url(data:image/png;base64,R0lGODlhDQAEAIAAAAAAAP8A/yH5BAEHAAEALAAAAAANAAQAAAILhA+hG5jMDpxvhgIAOw==);
+background-repeat:no-repeat;
+background-position:right center;
+background-color:#fff;
+padding-right:20px;
+}
+.fb-forms-selectbox option{
+padding:2px 10px;
+outline:none;
+}
+.fb-settings-language{
+list-style:none;
+padding:0;
+margin:0 0 10px 0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+}
+.fb-settings-language-link{
+padding-left:25px;
+line-height:20px;
+display:inline-block;
+}
+.fb-settings-language-link:hover{
+text-decoration:none;
+color:#042452;
+}
+.fb-settings-language-link--active:after{
+content:"\e803";
+font-family:"fbicons";
+float:right;
+margin-left:7px;
+position:relative;
+top:-2px;
+color:#042452;
+}
+.fb-settings .g-btn{
+float:right;
+}
+.fb-language-nl{
+background-position:0 -7px;
+}
+.fb-language-en{
+background-position:0 -37px;
+}
+.fb-language-fr{
+background-position:0 -67px;
+}
+.fb-language-es{
+background-position:0 -97px;
+}
+.fb-language-it{
+background-position:0 -127px;
+}
+.fb-language-de{
+background-position:0 -157px;
+}
+.fb-language-ja{
+background-position:0 -187px;
+}
+.fb-language-ko{
+background-position:0 -217px;
+}
+.fb-language-zh,
+.fb-language-zhs{
+background-position:0 -247px;
+}
+.fb-language-ru{
+background-position:0 -277px;
+}
+.fb-language-ro{
+background-position:0 -307px;
+}
+@media screen and (max-width:480px){
+.fb-settings--column{
+float:none;
+width:100%;
+margin-right:0;
+}
+.fb-settings-country{
+max-height:160px;
+margin-bottom:20px;
+}
+.fb-settings .fb-btn{
+margin-top:15px;
+}
+}

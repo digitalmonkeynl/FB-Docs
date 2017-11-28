@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="23px" height="21px" viewBox="0 0 23 21" enable-background="new 0 0 23 21" xml:space="preserve">
+<title>Flight</title>
+<desc>Created with Sketch.</desc>
+<g id="UI-STYLE-GUIDE">
+	<g id="ICONS" transform="translate(-74.000000, -145.000000)">
+		<g id="Flight" transform="translate(74.000000, 145.000000)">
+			<g id="Clip-2">
+			</g>
+			<defs>
+				<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="0" y="0.098" width="22.924" height="20.902">
+					<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+				</filter>
+			</defs>
+			<mask maskUnits="userSpaceOnUse" x="0" y="0.098" width="22.924" height="20.902" id="mask-2">
+				<g filter="url(#Adobe_OpacityMaskFilter)">
+					<polyline id="path-1" fill="#FFFFFF" points="0,0.098 22.924,0.098 22.924,21 0,21 					"/>
+				</g>
+			</mask>
+			<path id="Fill-1" mask="url(#mask-2)" fill="#051039" d="M20.84,8.459h-5.86c-2.495-3.05-6.943-8.361-7.686-8.361
+				c0,0-1.042,0-1.042,1.045c0,0.708,1.91,4.766,3.143,7.316H4.802c-1.308-1.825-3.121-4.181-3.76-4.181c0,0-1.042,0-1.042,1.045
+				c0,1.045,2.084,5.226,2.084,5.226S0,14.729,0,15.774c0,0,0,1.046,1.042,1.046c0.639,0,2.452-2.358,3.76-4.182h4.593
+				c-1.233,2.55-3.143,6.607-3.143,7.316c0,0,0,1.045,1.042,1.045c0.742,0,5.192-5.311,7.686-8.361h5.86
+				c1.15,0,2.084-0.935,2.084-2.09S21.99,8.459,20.84,8.459"/>
+		</g>
+	</g>
+</g>
+</svg>

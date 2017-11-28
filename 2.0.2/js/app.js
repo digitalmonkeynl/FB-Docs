@@ -1,0 +1,1 @@
+require(["fb/jquery","fb/img-responsive","fb/initcomponents","fb/menu","fb/measure","fb/scroll"],function(i,n,e,t,s,f){"use strict";n.init({threshold:300}),e.components([{className:"js-fb-init"}]),s.init(),t.init(),f.init()}),define("fb/app",function(){});

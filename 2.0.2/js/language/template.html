@@ -1,0 +1,39 @@
+<form>
+	<label for="select-country"><@=i18n['settings.country']@></label>
+	<select id="select-country" class="fb-forms-selectbox fb-settings-country">
+		<@ _.each(data.countries, function(item, index){ @>
+		<@ if (current.country === item.code) { @>
+		<option value="<@=index@>" selected="selected"><@=item.name@></option>
+		<@ } else { @>
+		<option value="<@=index@>"><@=item.name@></option>
+		<@ } @>
+		<@ }); @>
+	</select>
+	<label for="select-airline"><@=i18n['settings.airline']@></label>
+	<select id="select-airline" class="fb-forms-selectbox fb-settings-airline">
+		<@ _.each(data.airlines, function(item, index){ @>
+		<@ if (current.airline === item.code) { @>
+		<option value="<@=item.code@>" selected="selected"><@=item.name@></option>
+		<@ } else { @>
+		<option value="<@=item.code@>"><@=item.name@></option>
+		<@ } @>
+		<@ }); @>
+	</select>
+	<div class="label"><@=i18n['settings.language']@></div>
+	<ul class="fb-settings-language">
+		<@ _.each(data.languages, function(item, index){ @>
+		<@ if (current.language === item.code) { @>
+		
+
+		<li><a href="#" data-id="<@=item.code@>" class="fb-settings-language-link-url active" title=""><span><@=item.code@></span><@=item.name@></a></li>
+		<@ } else { @>
+		
+
+		<li><a href="#" data-id="<@=item.code@>" class="fb-settings-language-link-url" title=""><span><@=item.code@></span><@=item.name@></a></li>
+		<@ } @>
+		<@ }); @>
+	</ul>
+	<div class="text-center">
+		<input type="submit" value="<@=i18n['settings.save']@>" class="fb-dev-header-login-submit fb-btn-change-language">
+	</div>
+</form>

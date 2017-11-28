@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no">
+		
+		<title>LE: Miles Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" type="image/ico" href="2.0.2/img/favicon.ico" />
+		<meta property="og:site_name" content="FLYINGBLUE.com" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Miles Calculator" />
+		<meta property="og:description" content="UI of Miles Calculator Earn and Burn" />
+		<meta property="article:author" content="Flying Blue" />
+		<meta property="og:image" content="" />
+
+		<!-- MAIN CSS -->
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="2.0.2/css/style.css?v=2.1" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- DOCUMENTATION CSS ONLY!! -->
+		<link rel="stylesheet" href="2.0.2/css/docs.css" />
+		<script src="2.0.2/core.js"></script>
+		<script>
+			var FB = FB || {};
+			FB.config = {
+				language: 'nl',
+				country: 'nl',
+				airline: 'af',
+				pos: 'nl'
+			};
+		</script>
+
+
+
+
+	</head>
+
+<body>
+<div class="skip-nav" tabindex="-1">
+	<ul class="grid-container">
+		<li><a href="#main-content">Skip to main content</a></li>
+		<li><a href="#" onclick="getfocusSearch()">Skip to search</a></li>
+		<li><a href="#main-navigation" class="">Skip to navigation</a></li>
+		<li><a href="/earn-miles.html" class="">Skip to Earn Miles</a></li>
+		<li><a href="/spend-miles.html" class="">Skip to Spend Miles</a></li>
+		<li><a href="/buy-and-transfer-miles.html" class="">Skip to Buy & Transfer Miles</a></li>
+	</ul>
+</div>
+<div class="mobile-push">
+
+
+
+
+<div class="fb-page-wrapper">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="grid-100 js-fb-init" data-components='[{"path": "fb/calculator"}]'>
+				<div class="fb-block">
+					<div class="grid-column">
+						<div class="fb-calculator clearfix">
+							<h3 class="fb-calculator-h3">Miles calculator</h3>
+							<div class="grid-66 push-33 noPadding">
+
+								<!-- first step -->
+								<div class="fb-calculator-step step1">
+									<div class="fb-img-reset-me-container fb-img-ratio-4-3">
+										<img class="js-fb-img fb-img-native" srcset="2.0.2/img/fb-miles-calculator-mobile.png 480w, 2.0.2/img/fb-miles-calculator-mobile.png 768w, 2.0.2/img/fb-miles-calculator.png 1x" data-img-type="native" title="" src="2.0.2/img/fb-miles-calculator.png">
+									</div>
+								</div>
+								<!-- /first step -->
+
+								<!-- TODO -->
+								<!-- Niet tonen als er geen data is -->
+								<div class="fb-calculator-data"></div>
+
+								<div class="fb-calculator-loading">
+									<div class="fb-application-loader">
+										<span class="fb-application-loader-table">
+											<strong class="fb-application-loader-cell">
+												<img src="2.0.2/img/form/loading.gif" class="fb-appliaction-loader-img" alt="">
+											</strong>
+										</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="grid-33 pull-66 fb-calculator-leftside">
+								<form class="fb-calculator-form">
+									<fieldset>
+										<input type="hidden" name="traveldate" id="traveldate" maxlength="20" placeholder="2015-06-02T12:00:00Z" value="2015-06-02T12:00:00Z" class="fb-application-textfield fb-form-textfield" required>
+										<div class="tablet-grid-50 clearfix">
+											<!-- TODO -->
+											<!-- Niet tonen als er geen error is -->
+											<div class="tablet-grid-50 clearfix fb-error fb-application-error fb-calculator-main-error" style="display:none"></div>
+											<div class="grid-20 noPadding">
+												<label for="field-1" class="fb-calculator-form--label">From</label>
+											</div>
+											<div class="grid-80 noPadding">
+												<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield fb-calculator-from fb-application-textfield" autocomplete="off">
+												<input type="hidden" name="airport[from]" />
+												<ul class="fb-calculator-lookup-results">
+													
+												</ul>
+
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<div class="fb-error" style="display:none"></div>
+											<div class="grid-20 noPadding">
+												<label for="field-3" class="fb-calculator-form--label">To</label>
+											</div>
+											<div class="grid-80 noPadding">
+												<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield fb-calculator-to fb-application-textfield" autocomplete="off">
+												<input type="hidden" name="airport[to]" />
+												<ul class="fb-calculator-lookup-results"></ul>
+
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<div class="fb-application-error" style="display:none"></div>
+											<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+											<select name="marketing_airline" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="" selected="selected">Select</option>
+												<option value="AF">AIR FRANCE</option>
+												<option value="KL">KLM</option>
+												<option value="AIR_EUROPA">Air Europa</option>
+												<option value="KENYA_AIRWAYS">Kenya Airways</option>
+											</select>
+										</div>
+
+										<div class="tablet-grid-50 clearfix">
+											<div class="fb-application-error" style="display:none"></div>
+											<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+											<select class="fb-calculator-form--select" id="field-4" name="cabin_class">
+												<option value="" selected="selected">Select Airline First</option>
+											</select>
+										</div>
+										<div class="clearfix"></div>
+										<div class="grid-100">
+											<div class="fb-application-error" style="display:none"></div>
+											<input type="radio" name="direction" value="one-way" checked="" class="fb-calculator-form--radiobtn fb-calculator-direction">
+											<label for="one-way" style="padding-right: 10px;">One way</label>
+											<input type="radio" name="direction" checked="checked" value="return" class="fb-calculator-form--radiobtn fb-calculator-direction">
+											<label for="return">Return</label>
+										</div>
+										<div style="height:15px;"></div>
+										<div class="fb-calculator-form-advanced clearfix">
+											<div class="tablet-grid-50">
+												<div class="fb-application-error" style="display:none"></div>
+												<div class="via-fieldset">
+													<label for="" class="fb-calculator-form--label">Via</label>
+													<input type="text" name="" id="" value="" placeholder="Optional" class="fb-calculator-form--textfield fb-calculator-via fb-application-textfield" autocomplete="off">
+													<input type="hidden" name="airport[via][]" />
+													<ul class="fb-calculator-lookup-results"></ul>
+												</div>
+												<div class="via-fieldset-source">
+													<div class="fb-application-error" style="display:none"></div>
+													<label for="" class="fb-calculator-form--label">Via</label>
+													<input type="text" name="" id="" value="" placeholder="Optional" class="fb-calculator-form--textfield fb-calculator-via-input fb-application-textfield" autocomplete="off">
+													<input type="hidden" name="airport[via][]" />
+													<ul class="fb-calculator-lookup-results"></ul>
+												</div>
+												<!--button class="fb-btn fb-calculator-form--addbtn fb-calculator-via-add"><span><i class="icon-plus-1"></i></span></button-->
+
+											</div>
+											<div class="tablet-grid-50">
+												<div class="fb-application-error" style="display:none"></div>
+												<label for="" class="fb-calculator-form--label">Select your Booking class</label>
+												<select class="fb-calculator-form--select fb-calculator-form--block" name="booking_class">
+												</select>
+											</div>
+										</div>
+
+										<div class="grid-100">
+											<a href="#" class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+											<button class="fb-application-submit fb-application-submit--block fb-calculator-submit-needed"><span>How many Miles do I need?</span></button>
+											<button class="fb-application-submit fb-application-submit--block fb-calculator-submit-earn"><span>How many Miles will I earn?</span></button>
+											<button class="fb-application-submit fb-application-submit--block fb-calculator-submit-upgrade"><span>How many Miles for an upgrade?</span></button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- OUR JAVASCRIPT SETUP -->
+<script src="2.0.2/js/plugins.js"></script>
+<script src="2.0.2/js/custom.js"></script>
+<script src="2.0.2/js/bundle.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "errors": {
+    "foo": {
+      "fieldname": "foo",
+      "message": "This field failed through the ajax validator"
+    }
+  }
+}

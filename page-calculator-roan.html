@@ -1,0 +1,799 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no">
+		
+		<title>LE: Miles Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" type="image/ico" href="2.0.2/img/favicon.ico" />
+		<meta property="og:site_name" content="FLYINGBLUE.com" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Miles Calculator" />
+		<meta property="og:description" content="UI of Miles Calculator Earn and Burn" />
+		<meta property="article:author" content="Flying Blue" />
+		<meta property="og:image" content="" />
+
+		<!-- MAIN CSS -->
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="2.0.2/css/style.css?v=2.1" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- DOCUMENTATION CSS ONLY!! -->
+		<link rel="stylesheet" href="2.0.2/css/docs.css" />
+		<script src="2.0.2/core.js"></script>
+		<script>
+			var FB = FB || {};
+			FB.config = {
+				language: 'nl',
+				country: 'nl',
+				airline: 'af',
+				pos: 'nl'
+			};
+		</script>
+
+
+
+
+	</head>
+
+<body>
+<div class="skip-nav" tabindex="-1">
+	<ul class="grid-container">
+		<li><a href="#main-content">Skip to main content</a></li>
+		<li><a href="#" onclick="getfocusSearch()">Skip to search</a></li>
+		<li><a href="#main-navigation" class="">Skip to navigation</a></li>
+		<li><a href="/earn-miles.html" class="">Skip to Earn Miles</a></li>
+		<li><a href="/spend-miles.html" class="">Skip to Spend Miles</a></li>
+		<li><a href="/buy-and-transfer-miles.html" class="">Skip to Buy & Transfer Miles</a></li>
+	</ul>
+</div>
+<div class="mobile-push">
+
+
+
+
+<div class="fb-page-wrapper">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="grid-100">
+				<div class="fb-block clearfix">
+					<ul class="fb-crumblepath">
+						<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Home</a></li>
+						<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Page</a></li>
+						<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Page</a></li>
+						<li class="fb-crumblepath-listitem"><h1 class="fb-crumblepath-h1">Miles Calculator</h1></li>
+					</ul>
+					<div class="fb-h1-illustration">
+						<div class="fb-img-reset-me-container fb-img-ratio-4-2">
+							<img class="js-fb-img fb-img-native" srcset="2.0.2/img/fb-illustration-stones.jpg 480w, 2.0.2/img/fb-illustration-stones.jpg 768w, 2.0.2/img/fb-illustration-stones.jpg 1x" data-img-type="native" title="" src="2.0.2/img/fb-illustration-stones.jpg">
+						</div>
+					</div>
+					<h2 class="fb-h1">How many Miles do I need for my next trip?<small>Fill in your flight details below to see how many Miles you need for your next award&nbsp;flight.</small></h2>
+				</div>
+
+				<div class="fb-block">
+					<div class="grid-column">
+						<div class="fb-calculator clearfix">
+							<h3 class="fb-calculator-h3">Miles calculator</h3>
+							<div class="grid-66 push-33 noPadding">
+								<div class="fb-calculator-welcome">
+									<div class="fb-calculator-welcome-copy">
+										<h3 class="fb-calculator-welcome-copy-title">Fill in your flight details
+											<small>And calculate your Miles fast and easy</small>
+										</h3>
+									</div>
+									<div class="fb-calculator-welcome-visual">
+										<div class="fb-img-reset-me-container fb-img-ratio-4-3">
+											<img class="js-fb-img fb-img-native" srcset="2.0.2/img/fb-miles-calculator-mobile.png 480w, 2.0.2/img/fb-miles-calculator-tablet.png 768w, 2.0.2/img/fb-miles-calculator.png 1x" data-img-type="native" title="" src="2.0.2/img/fb-miles-calculator.png">
+										</div>
+									</div>
+								</div>								
+							</div>
+							<div class="grid-33 pull-66 fb-calculator-leftside">
+
+								<form class="fb-calculator-form" action="" name="" id="">
+									<fieldset>
+										<div class="tablet-grid-50 clearfix">
+											<div class="grid-20 noPadding">
+												<label for="field-1" class="fb-calculator-form--label">From</label>
+											</div>
+											<div class="grid-80 noPadding fb-calculator-form-from">
+												<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield">
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<div class="grid-20 noPadding">
+												<label for="field-3" class="fb-calculator-form--label">To</label>
+											</div>
+											<div class="grid-80 noPadding fb-calculator-form-to">
+												<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield">
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+											<select name="" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="">AIR FRANCE</option>
+												<option value="">KLM</option>
+												<option value="">Air Europa</option>
+												<option value="">Kenya Airways</option>
+											</select>
+											<div class="fb-application-error">No airline selected</div>
+										</div>
+
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+											<select class="fb-calculator-form--select" id="field-4">
+												<option value="">Economy</option>
+												<option value="">Premium Economy</option>
+												<option value="">Business Class</option>
+												<option value="">First Class</option>
+											</select>
+										</div>
+										<div class="clearfix"></div>
+										<div class="grid-100">
+											<input type="radio" name="flight" id="one-way" checked="" class="fb-calculator-form--radiobtn">
+											<label for="one-way" style="padding-right: 10px;">One way</label>
+											<input type="radio" name="flight" id="return" class="fb-calculator-form--radiobtn">
+											<label for="return">Return</label>
+										</div>
+
+										<div style="padding-top:20px;"></div>
+										<div class="fb-calculator-form-advanced clearfix">
+											<div class="tablet-grid-50 clearfix">
+												<label for="field-2" class="fb-calculator-form--label">Via</label>
+												<input type="text" name="" id="field-2" value="" placeholder="Optional" class="fb-calculator-form--textfield">
+												<!--button class="fb-btn fb-calculator-form--addbtn"><span><i class="icon-plus-1"></i></span></button-->
+											</div>
+											<div class="tablet-grid-50">
+												<label class="fb-calculator-form--labelblock">Select your booking class <icon class="icon-info-circled tooltip" title="Tooltip goes here"></label>
+												<select class="fb-calculator-form--select fb-calculator-form--block">
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+												</select>
+											</div>
+										</div>
+										<div class="grid-100">
+											<a href="#" class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+											<button class="fb-application-submit fb-application-submit-active fb-application-submit--block"><span>How many Miles do I need?</span></button>
+											<button class="fb-application-submit fb-application-submit-disabled fb-application-submit--block"><span>How many Miles will I earn?</span></button>
+											<!--<button class="fb-application-submit fb-application-submit--block"><span>How many Miles for an upgrade?</span></button>-->
+											<a class="fb-application-submit fb-application-submit--center fb-application-submit--block" href="/account/login.html?ref=calculator">test</a>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<br />
+
+				<h3 class="fb-h2">Miles Calculator Loading</h3>
+
+
+
+				<div class="fb-block">
+					<div class="grid-column">
+						<div class="fb-calculator clearfix">
+							<h3 class="fb-calculator-h3">Miles calculator</h3>
+							
+							<div class="grid-33 fb-calculator-leftside">
+								<form class="fb-calculator-form" action="" name="" id="">
+									<fieldset>
+										<div class="tablet-grid-50 clearfix">
+											<div class="grid-20 noPadding">
+												<label for="field-1" class="fb-calculator-form--label">From</label>
+											</div>
+											<div class="grid-80 noPadding">
+												<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield">
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<div class="grid-20 noPadding">
+												<label for="field-3" class="fb-calculator-form--label">To</label>
+											</div>
+											<div class="grid-80 noPadding">
+												<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield">
+											</div>
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+											<select name="" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="">AIR FRANCE</option>
+												<option value="">KLM</option>
+												<option value="">Air Europa</option>
+												<option value="">Kenya Airways</option>
+											</select>
+										</div>
+
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+											<select class="fb-calculator-form--select" id="field-4">
+												<option value="">Economy</option>
+												<option value="">Premium Economy</option>
+												<option value="">Business Class</option>
+												<option value="">First Class</option>
+											</select>
+										</div>
+										<div class="clearfix"></div>
+										<div class="grid-100">
+											<input type="radio" name="flight" id="one-way" checked="" class="fb-calculator-form--radiobtn">
+											<label for="one-way" style="padding-right: 10px;">One way</label>
+											<input type="radio" name="flight" id="return" class="fb-calculator-form--radiobtn">
+											<label for="return">Return</label>
+										</div>
+
+										<div style="padding-top:20px;"></div>
+										<div class="fb-calculator-form-advanced clearfix">
+											<div class="tablet-grid-50 clearfix">
+												<label for="field-2" class="fb-calculator-form--label">Via</label>
+												<input type="text" name="" id="field-2" value="" placeholder="Optional" class="fb-calculator-form--textfield">
+											</div>
+											<div class="tablet-grid-50">
+												<label class="fb-calculator-form--labelblock">Select your booking class</label>
+												<select class="fb-calculator-form--select fb-calculator-form--block">
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+													<option value="">Y/K</option>
+												</select>
+											</div>
+										</div>
+										<div class="grid-100">
+											<a class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+											<button class="fb-application-submit fb-application-submit--block"><span>How many Miles do I need?</span></button>
+											<button class="fb-application-submit fb-application-submit--block"><span>How many Miles will I earn?</span></button>
+											<button class="fb-application-submit fb-application-submit--block"><span>How many Miles for an upgrade?</span></button>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+
+							<div class="grid-66 noPadding">
+								<div class="fb-calculator-data">
+									
+									
+								</div>
+								<div class="fb-application-loader" style="display:block;">
+									<span class="fb-application-loader-table">
+										<strong class="fb-application-loader-cell">
+											<img src="2.0.2/img/form/loading.gif" class="fb-appliaction-loader-img" alt="">
+										</strong>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<br />
+				<br />
+
+				<h3 class="fb-h2">Miles Calculator Earn</h3>
+
+
+				<div class="fb-block">
+					<div class="grid-column">
+						<div class="fb-calculator clearfix">
+							<h3 class="fb-calculator-h3">Miles calculator</h3>
+							<div class="grid-66 push-33 noPadding">
+								<div class="fb-calculator-data">
+									<div class="fb-calculator-data-result">
+										<h3 class="fb-h3 fb-h3--secondary">How many Miles will I earn?</h3>
+										<div class="fb-calculator-data-result--route">
+											<div><strong>From:</strong> <span>Amsterdam, Schiphol (AMS)</span>  <i class="icon-retweet"></i>  <span><strong>To:</strong> New York, JFK (JFK)</span></div>
+											<div><strong>Class:</strong> Economy Class &nbsp;&nbsp;<strong>Via:</strong> Berlin, Tegel Airport</div>
+										</div>
+
+										<div id="calculatorResults">
+
+											<div class="fb-calculator-message" style="display: none;">
+												Miles are calculated on the basis of flown miles. The results shown are calculated with an accrual percentage of 100%. The actual percentage may differ, depending on your booking class. Elite members enjoy an Elite bonus on SkyTeam flights. Silver members earn 50% extra, Gold members 75% extra and Platinum members are entitled to 100% extra Award Miles.
+											</div>
+
+
+
+											<div>
+												<div class="fb-calculator-message fb-calculator-message--question fb-calculator-total" style="display:block;">
+													
+														Asdasasdad
+														<i class="fa fa-times-circle fb-calculator-total-close"></i>
+													
+												</div>
+												<table class="fb-calculator-data-table fb-responsive-table">
+													<thead class="fb-responsive-table-head" >
+														<tr class="fb-responsive-table-row">
+															<th class="fb-responsive-table-header"></th>
+															<th class="fb-responsive-table-header">Award Miles</th>
+															<th class="fb-responsive-table-header">Level Miles</th>
+															<th class="fb-responsive-table-header hide-on-mobile">Total</th>
+														</tr>
+													</thead>
+													<tbody class="fb-responsive-table-body">
+														<tr class="fb-responsive-table-row">
+															<td class="fb-responsive-table-td fb-tier-name" data-title="">Ivory</td>											
+															<td class="fb-responsive-table-td" data-title="Award Miles"><strong class="milesamount">7.578</strong><span class="fb-calculator-data-toned-down"></span></td>
+															<td class="fb-responsive-table-td" data-title="Level Miles">2.500</td>
+															<td class="fb-responsive-table-td hide-on-mobile" data-title="Total"><span class="fb-link fb-link--bold fb-trigger-hidden-row" onClick="javascript: toggleFieldData('.fb-calculator-total-Ivory');"><i class="fbicons icon-info-circled"></i> Total Award Miles</span></td>
+														</tr>														
+														<tr class="fb-responsive-table-row">
+															<td class="fb-responsive-table-td fb-tier-name" data-title="">Silver</td>											
+															<td class="fb-responsive-table-td" data-title="Award Miles"><strong class="milesamount">11.367</strong><span class="fb-calculator-data-toned-down"></span></td>
+															<td class="fb-responsive-table-td" data-title="Level Miles">2.500</td>
+															<td class="fb-responsive-table-td hide-on-mobile" data-title="Total"><span class="fb-link fb-link--bold"><i class="fbicons icon-info-circled"></i> Total Award Miles</span></td>
+														</tr>
+														<tr class="fb-responsive-table-row">
+															<td class="fb-responsive-table-td fb-tier-name" data-title="">Gold</td>											
+															<td class="fb-responsive-table-td" data-title="Award Miles"><strong class="milesamount">13.261</strong><span class="fb-calculator-data-toned-down"></span></td>
+															<td class="fb-responsive-table-td" data-title="Level Miles">2.500</td>
+															<td class="fb-responsive-table-td hide-on-mobile" data-title="Total"><span class="fb-link fb-link--bold"><i class="fbicons icon-info-circled"></i> Total Award Miles</span></td>
+														</tr>														
+														<tr class="fb-responsive-table-row">
+															<td class="fb-responsive-table-td fb-tier-name" data-title="">Platinum</td>
+															<td class="fb-responsive-table-td" data-title="Award Miles"><strong class="milesamount">15.156</strong><span class="fb-calculator-data-toned-down"></span></td>
+															<td class="fb-responsive-table-td" data-title="Level Miles">2.500</td>
+															<td class="fb-responsive-table-td hide-on-mobile" data-title="Total"><span class="fb-link fb-link--bold"><i class="fbicons icon-info-circled"></i> Total Award Miles</span></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+
+
+									</div>
+									<div>
+
+										<div class="fb-calculator-data-footnote">
+											<strong>Please note the following conditions regarding earning Miles</strong>
+											<ul>
+												<li>The rules regarding earning Award and/or Level Miles are subject to change.</li>
+												<li>Results are merely indicative; no rights can be derived from these results.</li>
+												<li>Results shown include bonuses as based on the booking class and the Elite Mileage bonus.</li>
+											</ul>
+
+											<strong>Please note the following conditions regarding tickets that earn reduced or no Miles</strong>
+											<ul>
+												<li>Level Miles can only be earned on qualifying flights with AIR FRANCE, KLM and the participating airlines (except Aircalin) and SkyTeam partner airlines.</li>
+												<li>Please note: on some tickets you will only earn a reduced number of Miles or no Miles at all (e.g.: award, mini fare or Air Miles tickets). For more information, please consult the Flying&nbsp;Blue airline partner pages.</li>
+											</ul>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-33 pull-66 fb-calculator-leftside">
+							<form class="fb-calculator-form" action="" name="" id="">
+								<fieldset>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-1" class="fb-calculator-form--label">From</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-3" class="fb-calculator-form--label">To</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+										<select name="" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+											<option value="">AIR FRANCE</option>
+											<option value="">KLM</option>
+											<option value="">Air Europa</option>
+											<option value="">Kenya Airways</option>
+										</select>
+									</div>
+
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+										<select class="fb-calculator-form--select" id="field-4">
+											<option value="">Economy</option>
+											<option value="">Premium Economy</option>
+											<option value="">Business Class</option>
+											<option value="">First Class</option>
+										</select>
+									</div>
+									<div class="clearfix"></div>
+									<div class="grid-100">
+										<input type="radio" name="flight" id="one-way" checked="" class="fb-calculator-form--radiobtn">
+										<label for="one-way" style="padding-right: 10px;">One way</label>
+										<input type="radio" name="flight" id="return" class="fb-calculator-form--radiobtn">
+										<label for="return">Return</label>
+									</div>
+
+									<div style="padding-top:20px;"></div>
+									<div class="fb-calculator-form-advanced clearfix">
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-2" class="fb-calculator-form--label">Via</label>
+											<input type="text" name="" id="field-2" value="" placeholder="Optional" class="fb-calculator-form--textfield">
+										</div>
+										<div class="tablet-grid-50">
+											<label class="fb-calculator-form--labelblock">Select your booking class</label>
+											<select class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+											</select>
+										</div>
+									</div>
+									<div class="grid-100">
+										<a class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles do I need?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles will I earn?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles for an upgrade?</span></button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<br />
+			<br />
+
+			<h3 class="fb-h2">Miles Calculator Burn</h3>
+
+
+			<div class="fb-block">
+				<div class="grid-column">
+					<div class="fb-calculator clearfix">
+						<h3 class="fb-calculator-h3">Miles calculator</h3>
+						<div class="grid-33 fb-calculator-leftside">
+							<form class="fb-calculator-form" action="" name="" id="">
+								<fieldset>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-1" class="fb-calculator-form--label">From</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-3" class="fb-calculator-form--label">To</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+										<select name="" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+											<option value="">AIR FRANCE</option>
+											<option value="">KLM</option>
+											<option value="">Air Europa</option>
+											<option value="">Kenya Airways</option>
+										</select>
+									</div>
+
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+										<select class="fb-calculator-form--select" id="field-4">
+											<option value="">Economy</option>
+											<option value="">Premium Economy</option>
+											<option value="">Business Class</option>
+											<option value="">First Class</option>
+										</select>
+									</div>
+									<div class="clearfix"></div>
+									<div class="grid-100">
+										<input type="radio" name="flight" id="one-way" checked="" class="fb-calculator-form--radiobtn">
+										<label for="one-way" style="padding-right: 10px;">One way</label>
+										<input type="radio" name="flight" id="return" class="fb-calculator-form--radiobtn">
+										<label for="return">Return</label>
+									</div>
+
+									<div style="padding-top:20px;"></div>
+									<div class="fb-calculator-form-advanced clearfix">
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-2" class="fb-calculator-form--label">Date</label>
+											<div>
+												<select class="fb-select fb-select--inline">
+													<option>Day</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+												</select>
+												<select class="fb-select fb-select--inline">
+													<option>Month</option>
+													<option>Day</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+													<option>01</option>
+												</select>
+												<select class="fb-select fb-select--inline">
+													<option>Year</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+													<option>2015</option>
+												</select>
+											</div>
+
+										</div>
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-2" class="fb-calculator-form--label">Via</label>
+											<input type="text" name="" id="field-2" value="" placeholder="Optional" class="fb-calculator-form--textfield">
+										</div>
+										<div class="tablet-grid-50">
+											<label class="fb-calculator-form--labelblock">Select your booking class</label>
+											<select class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+											</select>
+										</div>
+									</div>
+									<div class="grid-100">
+										<a class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles do I need?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles will I earn?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles for an upgrade?</span></button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						<div class="grid-66 noPadding">
+							<div class="fb-calculator-data">
+								<div class="fb-calculator-data-result">
+									<div class="fb-application-loader" style="display:none;">
+										<span class="fb-application-loader-table">
+											<strong class="fb-application-loader-cell">
+												<img src="2.0.2/img/form/loading.gif" class="fb-appliaction-loader-img" alt="">
+											</strong>
+										</span>
+									</div>
+									<h3>How many Miles do I need?</h3>
+									<div class="fb-calculator-data-result--route">
+										<div><strong>From:</strong> <span>Paris, Charles de Gaulle (CDG)</span>  <a href="#"><i class="icon-retweet"></i></a>  <span><strong>To:</strong> New York, JFK (JFK)</span></div>
+										<div><strong>Class:</strong> Economy Class &nbsp;&nbsp;<strong>Via:</strong> Berlin, Tegel Airport</div>
+									</div>
+
+									
+
+									<div class="calculatorResults">
+
+										<div>
+											<table class="fb-calculator-data-table fb-responsive-table">
+												<thead class="fb-responsive-table-head" >
+													<tr class="fb-responsive-table-row">
+														<th class="fb-responsive-table-header">Award ticket</th>
+														<th class="fb-responsive-table-header">You need</th>
+														<th class="fb-responsive-table-header"></th>
+													</tr>
+												</thead>
+												<tbody class="fb-responsive-table-body">
+													<tr class="fb-responsive-table-row">
+														<td class="fb-responsive-table-td" data-title=""><strong>Classic Award </strong></td>
+														<td class="fb-responsive-table-td" data-title="Miles needed">40.000 Miles</td>
+														<td class="fb-responsive-table-td" data-title=""><a href="#" class="fb-link fb-link--bold fb-link--next">Book now</a></td>
+													</tr>
+													<tr class="fb-responsive-table-row">
+														<td class="fb-responsive-table-td" data-title=""><strong>Flex Award </strong></td>
+														<td class="fb-responsive-table-td" data-title="Miles needed">80.000 Miles</td>
+														<td class="fb-responsive-table-td" data-title=""><a href="#" class="fb-link fb-link--bold fb-link--next">Book now</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+									</div>
+
+									<div class="fb-calculator-message">
+										When you book a regular ticket (i.e. not an award ticket), certain conditions permit you to use your Award Miles to upgrade to Business Class. For more information, go to <a href="">Spend Miles/upgrade awards</a> or contact the <a href="">Flying&nbsp;Blue&nbsp;Service&nbsp;Centre</a>.
+									</div>
+
+									<div>
+										<div class="fb-calculator-data-footnote">
+
+											<strong>Please note the following conditions regarding spending Miles</strong>
+											<ul>
+												<li>The rules regarding spending Award Miles are subject to change.</li>
+												<li>Results are merely indicative; no rights can be derived from these results.</li>
+												<li>Awards that combine the purchase of tickets from more than one airline are approved only when these tickets were purchased for flights operated by Flying&nbsp;Blue and SkyTeam airline partners; otherwise, separate award bookings will need to be requested and approved.</li>
+												<li>The number of Miles listed as being required for award flights applies to a round-trip ticket (a one-way ticket would require half this number of Miles).</li>
+												<li>The number of Miles listed as being required for an upgrade applies to a one-way flight. Class restrictions may apply to upgrades. </li>
+												<li>All award travel is limited to published routes.</li>
+												<li>You can book your award flight online or by calling the <a href="">Flying&nbsp;Blue&nbsp;Service&nbsp;Centre</a>.</li>
+												<li>Please check your Flying&nbsp;Blue news updates or the Flying&nbsp;Blue partner pages for applicable blackout dates.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<br />
+			<br />
+
+			<h3 class="fb-h2">Miles Calculator Upgrade</h3>
+
+
+			<div class="fb-block">
+				<div class="grid-column">
+					<div class="fb-calculator clearfix">
+						<h3 class="fb-calculator-h3">Miles calculator</h3>
+						<div class="grid-33 fb-calculator-leftside">
+							<form class="fb-calculator-form" action="" name="" id="">
+								<fieldset>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-1" class="fb-calculator-form--label">From</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-1" value="" placeholder="Amsterdam, Schiphol (AMS)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<div class="grid-20 noPadding">
+											<label for="field-3" class="fb-calculator-form--label">To</label>
+										</div>
+										<div class="grid-80 noPadding">
+											<input type="text" name="" id="field-3" value="" placeholder="New York, JFK (JFK)" class="fb-calculator-form--textfield">
+										</div>
+									</div>
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-3" class="fb-calculator-form--label">Select your airline</label>
+										<select name="" id="field-5" class="fb-calculator-form--select fb-calculator-form--block">
+											<option value="">AIR FRANCE</option>
+											<option value="">KLM</option>
+											<option value="">Air Europa</option>
+											<option value="">Kenya Airways</option>
+										</select>
+									</div>
+
+									<div class="tablet-grid-50 clearfix">
+										<label for="field-4" class="fb-calculator-form--label">Select your Cabin Class</label>
+										<select class="fb-calculator-form--select" id="field-4">
+											<option value="">Economy</option>
+											<option value="">Premium Economy</option>
+											<option value="">Business Class</option>
+											<option value="">First Class</option>
+										</select>
+									</div>
+									<div class="clearfix"></div>
+									<div class="grid-100">
+										<input type="radio" name="flight" id="one-way" checked="" class="fb-calculator-form--radiobtn">
+										<label for="one-way" style="padding-right: 10px;">One way</label>
+										<input type="radio" name="flight" id="return" class="fb-calculator-form--radiobtn">
+										<label for="return">Return</label>
+									</div>
+
+									<div style="padding-top:20px;"></div>
+									<div class="fb-calculator-form-advanced clearfix">
+										<div class="tablet-grid-50 clearfix">
+											<label for="field-2" class="fb-calculator-form--label">Via</label>
+											<input type="text" name="" id="field-2" value="" placeholder="Optional" class="fb-calculator-form--textfield">
+										</div>
+										<div class="tablet-grid-50">
+											<label class="fb-calculator-form--labelblock">Select your booking class</label>
+											<select class="fb-calculator-form--select fb-calculator-form--block">
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+												<option value="">Y/K</option>
+											</select>
+										</div>
+									</div>
+									<div class="grid-100">
+										<a class="fb-calculator-advanced-link fb-calculator-form-show-link">Advanced options</a>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles do I need?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles will I earn?</span></button>
+										<button class="fb-application-submit fb-application-submit--block"><span>How many Miles for an upgrade?</span></button>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+						<div class="grid-66 noPadding">
+							<div class="fb-calculator-data">
+								<div class="fb-calculator-data-result">
+									<div class="fb-application-loader" style="display:none;">
+										<span class="fb-application-loader-table">
+											<strong class="fb-application-loader-cell">
+												<img src="2.0.2/img/form/loading.gif" class="fb-appliaction-loader-img" alt="">
+											</strong>
+										</span>
+									</div>
+									<h3>How many Miles do I need to upgrade to a higher cabin class?</h3>
+									<div class="fb-calculator-data-result--route">
+										<div><strong>From:</strong> <span>Paris, Charles de Gaulle (CDG)</span>  <i class="icon-retweet"></i>  <span><strong>To:</strong> New York, JFK (JFK)</span></div>
+										<div><strong>Class:</strong> Economy Class &nbsp;&nbsp;<strong>Via:</strong> Berlin, Tegel Airport</div>
+
+									</div>
+
+									<div id="responsiveTabsDemo2" class="calculatorResults">
+
+										<div>
+											<table class="fb-calculator-data-table">
+
+												<tbody >
+													<tr>
+														<td>
+															From booking class [xxx] you need [xxx] Award Miles to upgrade to [xxx]
+															<div class="fb-application-error">You have insufficient Miles to upgrade to this class.</div>
+														</td>
+														<td><a href="" class="fb-calculator-booknow"><i class="fa fa-phone"></i>&nbsp;Upgrade</a></td>
+													</tr>
+													<tr>
+														<td>From booking class [xxx] you need [xxx] Award Miles to upgrade to [xxx]
+															<div class="fb-application-error">You have insufficient Miles to upgrade to this class.</div>
+														</td>
+														<td><a href="" class="fb-calculator-booknow"><i class="fa fa-phone"></i>&nbsp;Upgrade</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+									</div>
+
+									<div>
+										<div class="fb-calculator-data-footnote">
+											<strong>Please note the following conditions:</strong>
+											<ul>
+												<li>The above-mentioned number of Award Miles is valid for upgrades on a one-way flight only. For an upgrade on a return flight, two award upgrades must be booked.</li>
+												<li>It is only possible to upgrade to Business Class when you purchased a ticket in booking classes Y, B, M, U, K, H, L or Q. </li>
+												<li>Award upgrades to First Class are only possible for Elite members with a ticket in booking classes J, C or D. </li>
+												<li>All upgrades are subject to availability.</li>
+											</ul>
+											Please check the <a href="">qualifying booking classes</a> for upgrades before you book or contact the <a href="">Flying&nbsp;Blue&nbsp;Service&nbsp;Centre</a>.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- OUR JAVASCRIPT SETUP -->
+<script src="2.0.2/js/plugins.js"></script>
+<script src="2.0.2/js/custom.js"></script>
+<script src="2.0.2/js/bundle.js"></script>
+
+</body>
+</html>

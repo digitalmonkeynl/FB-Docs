@@ -1,0 +1,714 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="format-detection" content="telephone=no">
+		
+		<title>LE: Page Layout</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="shortcut icon" type="image/ico" href="2.0.2/img/favicon.ico" />
+		<meta property="og:site_name" content="FLYINGBLUE.com" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="Page Layout" />
+		<meta property="og:description" content="Layout for basic copy based pages. Including crumplepath and page navigation menu (optional)." />
+		<meta property="article:author" content="Flying Blue" />
+		<meta property="og:image" content="" />
+
+		<!-- MAIN CSS -->
+		<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="2.0.2/css/style.css?v=2.1" />
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- DOCUMENTATION CSS ONLY!! -->
+		<link rel="stylesheet" href="2.0.2/css/docs.css" />
+		<script src="2.0.2/core.js"></script>
+		<script>
+			var FB = FB || {};
+			FB.config = {
+				language: 'nl',
+				country: 'nl',
+				airline: 'af',
+				pos: 'nl'
+			};
+		</script>
+
+
+
+
+	</head>
+
+<body>
+<div class="skip-nav" tabindex="-1">
+	<ul class="grid-container">
+		<li><a href="#main-content">Skip to main content</a></li>
+		<li><a href="#" onclick="getfocusSearch()">Skip to search</a></li>
+		<li><a href="#main-navigation" class="">Skip to navigation</a></li>
+		<li><a href="/earn-miles.html" class="">Skip to Earn Miles</a></li>
+		<li><a href="/spend-miles.html" class="">Skip to Spend Miles</a></li>
+		<li><a href="/buy-and-transfer-miles.html" class="">Skip to Buy & Transfer Miles</a></li>
+	</ul>
+</div>
+<div class="mobile-push">
+
+
+
+
+<!-- Start Header -->
+
+<!-- Start Cookie bar -->
+<!--
+<div class="fb-cookie-bar">
+	<div class="grid-container fb-cookie-bar-wrapper">
+		<h3 class="fb-cookie-bar-hi">Hi there!</h3>
+		<p class="fb-cookie-bar-intro">By visiting Flyingblue.com you accept the use of cookies. <a href="#" class="fb-cookie-link">Read more about our cookie pollicy</a>. </p>
+		<div class="fb-cookie-bar-buttons">
+			<a class="fb-btn fb-btn-promo allow-cookies fb-btn--mobile"><span><i class="icon-ok"></i> I accept cookies</span></a>
+		</div>
+	</div>
+</div>
+-->
+<!-- End Cookie bar -->
+
+<header class="fb-header">
+
+	<!--
+	<div class="fb-account-header fb-account-header--ivory clearfix">
+		<div class="grid-container">
+			<ul class="fb-account-header-list">
+				<li class="fb-account-header-listitem fb-account-header-member-name">
+					<span class="fb-account-header-welcome">Welkom</span>
+					<span class="fb-account-header-title">MR.</span>
+					<span class="fb-account-header-firstname">JOHN</span>
+					<span class="fb-account-header-lastname">DOE</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-award-miles">23.000 Award Miles</li>
+				<li class="fb-account-header-listitem fb-account-header-account-level">
+					<img src="http://www.flyingblue.com/images/tierheader/tier-header-card-A.png" alt="">
+					<span class="fb-account-header-account-title">IVORY</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-account-myaccount"><a href="#" class="fb-account-header-account-myaccount-link">Mijn Account</a></li>
+				<li class="fb-account-header-listitem fb-account-header-account-logout">
+					<a href="#" class="fb-account-header-account-logout-link">Uitloggen</a>
+					<a href="#" class="fb-account-header-account-logout-icon"><i class="icon-logout"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="fb-account-header fb-account-header--silver clearfix">
+		<div class="grid-container">
+			<ul class="fb-account-header-list">
+				<li class="fb-account-header-listitem fb-account-header-member-name">
+					<span class="fb-account-header-welcome">Welkom</span>
+					<span class="fb-account-header-title">MR.</span>
+					<span class="fb-account-header-firstname">JOHN</span>
+					<span class="fb-account-header-lastname">DOE</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-award-miles">23.000 Award Miles</li>
+				<li class="fb-account-header-listitem fb-account-header-account-level">
+					<img src="http://www.flyingblue.com/images/tierheader/tier-header-card-B.png" alt="">
+					<span class="fb-account-header-account-title">SILVER</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-account-myaccount"><a href="#" class="fb-account-header-account-myaccount-link">Mijn Account</a></li>
+				<li class="fb-account-header-listitem fb-account-header-account-logout">
+					<a href="#" class="fb-account-header-account-logout-link">Uitloggen</a>
+					<a href="#" class="fb-account-header-account-logout-icon"><i class="icon-logout"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="fb-account-header fb-account-header--gold clearfix">
+		<div class="grid-container">
+			<ul class="fb-account-header-list">
+				<li class="fb-account-header-listitem fb-account-header-member-name">
+					<span class="fb-account-header-welcome">Welkom</span>
+					<span class="fb-account-header-title">MR.</span>
+					<span class="fb-account-header-firstname">JOHN</span>
+					<span class="fb-account-header-lastname">DOE</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-award-miles">23.000 Award Miles</li>
+				<li class="fb-account-header-listitem fb-account-header-account-level">
+					<img src="http://www.flyingblue.com/images/tierheader/tier-header-card-R.png" alt="">
+					<span class="fb-account-header-account-title">GOLD</span>
+				</li>
+				<li class="fb-account-header-listitem fb-account-header-account-myaccount"><a href="#" class="fb-account-header-account-myaccount-link">Mijn Account</a></li>
+				<li class="fb-account-header-listitem fb-account-header-account-logout">
+					<a href="#" class="fb-account-header-account-logout-link">Uitloggen</a>
+					<a href="#" class="fb-account-header-account-logout-icon"><i class="icon-logout"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<div class="fb-account-header fb-account-header--platinum">
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="grid-100">
+					<ul class="fb-account-header-list">
+						<li class="fb-account-header-listitem fb-account-header-member-name">
+							<span class="fb-account-header-welcome">Welkom</span>
+							<span class="fb-account-header-title">MR.</span>
+							<span class="fb-account-header-firstname">JOHN</span>
+							<span class="fb-account-header-lastname">DOE</span>
+						</li>
+						<li class="fb-account-header-listitem fb-account-header-award-miles">23.000 Award Miles</li>
+						<li class="fb-account-header-listitem fb-account-header-account-level">
+							<img src="http://www.flyingblue.com/images/tierheader/tier-header-card-M.png" alt="">
+							<span class="fb-account-header-account-title">PLATINUM</span>
+						</li>
+						<li class="fb-account-header-listitem fb-account-header-account-myaccount"><a href="#" class="fb-account-header-account-myaccount-link">Mijn Account</a></li>
+						<li class="fb-account-header-listitem fb-account-header-account-logout">
+							<a href="#" class="fb-account-header-account-logout-link">Sing out</a>
+							<a href="#" class="fb-account-header-account-logout-icon"><i class="icon-logout"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>-->
+
+
+
+	<div class="grid-container">
+		
+
+		<!-- Start Alert Bar -->
+		<div class="fb-alert-message" style="display:none;">
+			<i class="icon-attention-circled"></i> <strong>Important information:</strong> <a href="#">Click here for updates on Malaysia Airlines flight MH17</a>
+			<i class="icon-cancel close-alert-message"></i>
+		</div>
+		<!-- End Alert Bar -->
+		
+		<!-- Start Logo Bar -->
+		<div class="fb-header-top-row clearfix">
+			<div class="fb-main-navigation-expand"></div>
+			<a href="index.html" class="fb-logo"></a>
+			<div class="fb-user-navigation">
+				<ul class="fb-user-navigation-list clearfix">
+					<li class="fb-user-navigation-listitem fb-user-register"><a href="#" class="fb-user-navigation-link">Join</a></li>
+					<li class="fb-user-navigation-listitem"><a href="#" class="fb-user-navigation-link fb-user-login hide-on-mobile">Sign in</a></li>
+					<li class="fb-user-navigation-listitem fb-user-navigation-listitem--language">                            
+						<a class="fb-user-navigation-link fb-user-language language-selector-link js-fb-init js-fb-select-language" data-components='[{
+						"path": "fb/select-language",
+						"initOn": "click",
+						"lang": "nl"
+					}]'>
+					<img src="http://www.flyingblue.com/images/flags/it.gif" alt="" class="fb-flag"> <span class="fb-language">Italy</span></a>
+				</li>
+			</ul>
+		</div> 
+	</div>
+
+	<!-- End Logo Bar -->
+
+	<!-- Start Mobile Search -->
+	<form method="post" action="#" name="" role="search" class="fb-mobile-search">
+		<fieldset>
+			<div class="fb-input-group">
+				<span class="input-addon"><i class="icon-search"></i></span><input type="text" role="search" class="fb-search-input" placeholder="Stel een vraag"> 
+			</div> 
+		</fieldset>
+	</form>
+	<!-- End Mobile Search -->
+
+	<!-- Start Main Navigation --> 
+	<nav class="fb-main-navigation">
+		<ul class="fb-main-navigation-list clearfix">
+			<li class="fb-main-navigation-listitem fb-main-navigation-link--home"><a href="index.html" class="fb-main-navigation-link"><i class="icon-home"></i></a></li> 
+			
+			<li class="fb-main-navigation-listitem"><a href="" class="fb-main-navigation-link">Earn Miles</a>
+				<div class="fb-main-navigation-submenu">
+					<div class="grid-row">
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="fb-main-navigation-listitem"><a href="" class="fb-main-navigation-link">Spend Miles</a>
+				<div class="fb-main-navigation-submenu">
+					<div class="grid-row">
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="fb-main-navigation-listitem"><a href="" class="fb-main-navigation-link">Buy & Transfer Miles</a>
+				<div class="fb-main-navigation-submenu">
+					<div class="grid-row">
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="fb-main-navigation-listitem hide-below-860"><a href="" class="fb-main-navigation-link">About</a>
+				<div class="fb-main-navigation-submenu">
+					<div class="grid-row">
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+						<div class="grid-33">
+							<ul class="fb-main-navigation-submenu-list">                                   
+								<li class="fb-main-navigation-submenu-listitem fb-main-navigation-submenu-listitem--heading">Text goes here</li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+								<li class="fb-main-navigation-submenu-listitem"><a href="#" class="fb-main-navigation-submenu-link">Text goes here</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<!-- End Main Navigation -->
+</header>
+<!-- End Header -->
+<div class="fb-page-wrapper">
+	<div class="grid-container">
+
+		<div class="fb-block">
+			<ul class="fb-crumblepath">
+				<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Home</a></li>
+				<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Page</a></li>
+				<li class="fb-crumblepath-listitem"><a href="#" class="fb-crumblepath-link">Page</a></li>
+				<li class="fb-crumblepath-listitem"><h1 class="fb-crumblepath-h1">About Flying&nbsp;Blue</h1></li>
+			</ul>
+			<div class="fb-h1-illustration">
+				<div class="fb-img-reset-me-container fb-img-ratio-4-2">
+					<img class="js-fb-img fb-img-native" srcset="http://www.flyingblue.com/images/sitevisuals/visual_about_fb.jpg 480w, http://www.flyingblue.com/images/sitevisuals/visual_about_fb.jpg 768w, http://www.flyingblue.com/images/sitevisuals/visual_about_fb.jpg 1x" data-img-type="native" title="" src="http://www.flyingblue.com/images/sitevisuals/visual_about_fb.jpg">
+				</div>
+			</div>
+			<h2 class="fb-h1">Earn Miles and enjoy exclusive benefits<small>Flying&nbsp;Blue is your ideal travelling companion – earn Miles while flying and spend them on flights, hotel stays, car rentals and much more. And you know what is best? Joining Flying&nbsp;Blue is completely free!</small></h2>
+		</div>
+
+		<div class="fb-block">
+			<div class="grid-row">
+				<div class="grid-70 push-30">
+					<div class="grid-column">
+						<div class="fb-copy">
+							<h3 class="fb-h3">Get rewarded for flying with us</h3>
+							<p>
+								Every time you book an applicable flight with AIR&nbsp;FRANCE, KLM or any of our airline partners, Flying&nbsp;Blue lets you earn Miles. All you have to do is mention your Flying&nbsp;Blue number each time you book a flight or make use of the services of one of our partners.
+								<br/><br/>
+								There are two types of Miles you can earn: Award Miles and Level Miles.
+							</p>
+							<ul>
+								<li>Award Miles can be spent on tickets, upgrades, Promo Awards<sup>@</sup> or products and services from our 130 partners.</li>
+								<li>Level Miles bring you to a higher Flying&nbsp;Blue membership level that offers extra services and benefits. With a higher membership level, for example, you're entitled to a bonus of Award Miles for applicable flights.</li>
+							</ul>==
+							<div class="fb-video-wrapper">
+								<iframe class="fb-video-object" src="//www.youtube.com/embed/s_AbSEi5L3k" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<ul class="fb-attention-list">
+								<strong>Useful links</strong>
+								<li><a href="#">All about Flying&nbsp;Blue Miles</a></li>
+								<li><a href="#">Join for free!</a></li>
+							</ul>
+							<h3 class="fb-h3">Get the recognition you deserve</h3>
+							<p>
+								Flying&nbsp;Blue has four different levels of membership: Ivory, Silver, Gold and Platinum. As you travel more and more with us, we reward your loyalty by offering more Miles, additional services and ever-increasing benefits that are yours to enjoy. Simply mention or show your Flying&nbsp;Blue card and you’ll experience smoother, easier and more pleasant travels. It's our way of showing how much we value you.
+							</p>
+							<ul class="fb-attention-list">
+								<strong>Useful links</strong>
+								<li><a href="#">All about levels and benefits</a></li>
+							</ul>
+							<h3 class="fb-h3">See how quickly Miles open up a world of benefits</h3>
+							<div class="fb-video-wrapper">
+								<iframe class="fb-video-object" src="//www.youtube.com/embed/L6boXMtsEmQ" frameborder="0" allowfullscreen></iframe>
+							</div>
+							<table class="fb-table">
+								<thead class="fb-table-head">
+									<tr class="fb-table-row">
+										<th class="fb-table-header">Your travel behaviour in 1 year:</th>
+										<th class="fb-table-header">You can earn:</th>
+										<th class="fb-table-header">You can spend these Miles on awards such as:</th>
+									</tr>
+								</thead>
+								<tbody class="fb-table-body">
+									<tr class="fb-table-row">
+										<td class="fb-table-td" data-title="Your travel behaviour in 1 year:">12 return flights from Paris or Amsterdam to London in Economy Class</td>
+										<td class="fb-table-td" data-title="You can earn:">18,000 Award Miles, depending on ticket fare</td>
+										<td class="fb-table-td" data-title="You can spend these Miles on awards such as:">
+											Promo Awards@<br />
+											seat upgrade<br />
+											1-day car rental<br />
+											4 cinema tickets										
+										</td>
+									</tr>
+									<tr class="fb-table-row">
+										<td class="fb-table-td" data-title="Your travel behaviour in 1 year:">2 intercontinental return flights per year in Business Class (e.g.: Paris – Delhi)</td>
+										<td class="fb-table-td" data-title="You can earn:">20,428 Award Miles, depending on ticket fare</td>
+										<td class="fb-table-td" data-title="You can spend these Miles on awards such as:">Promo Awards@<br />
+											seat upgrade<br />
+											1-day car rental<br />
+											4 cinema tickets</td>
+										</tr>
+									</tbody>
+								</table>
+								<ul class="fb-attention-list">
+									<strong>Useful links</strong>
+									<li><a href="#">Check out all possibilities to earn Miles</a></li>
+									<li><a href="#">Check out all possibilities to spend Miles</a></li>
+									<li><a href="#">All about levels and benefits</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="grid-30 pull-70">
+						<ul class="fb-col-list">
+							<li class="fb-col-list-item"><a href="#" class="fb-col-list-section">About Flying&nbsp;Blue</a></li>
+							<li class="fb-col-list-item">
+								<a href="#" class="fb-col-list-section fb-col-list-section-active">How does it work?</a>
+								<ul class="fb-col-list-secundary">
+									<li><a href="#">Levels and benefits</a></li>
+									<li><a href="#">Award and Level Miles</a></li>
+									<li><a href="#">Watch our videos</a></li>
+								</ul>
+							</li>
+							<li class="fb-col-list-item"><a href="#" class="fb-col-list-section">Levels and Benefits</a></li>
+							<li class="fb-col-list-item"><a href="#" class="fb-col-list-section">Flying&nbsp;Blue News</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+				<div class="fb-block">
+					<div class="grid-row">
+						<div class="grid-33 tablet-grid-33">
+							<div class="grid-column">
+								<h3 class="fb-h4">Latest news</h3>
+								<div class="fb-block-illustration">
+									<a href="#">
+										<span data-srcset="http://dummyimage.com/480x270/000/fff.png 480w, 
+										http://dummyimage.com/628x354/000/fff.png 768w, 
+										http://dummyimage.com/349x196/000/fff.png 1x, 
+										http://dummyimage.com/628x354/000/fff.png 480w 2x, 
+										http://dummyimage.com/698x392/000/fff.png 2x" 
+										class="js-fb-img fb-img-lazy fb-img-ratio-16-9" data-img-type="lazy"></span>
+									</a>
+								</div> 
+								<div class="fb-block-content-wrapper">
+									<div class="fb-block-news">
+										<a href="#" class="title">Spot the winning Flying View photos on your travels</a>
+										<a href="#" class="fb-readmore">Read more</a>
+									</div>
+								</div>
+								<a href="#" class="fb-btn fb-btn-primary"><span>View all</span></a>
+			
+							</div>
+						</div>
+						<div class="grid-33 tablet-grid-33">
+							<div class="grid-column">
+								<h3 class="fb-h4">Why join Flying&nbsp;Blue?</h3>
+								<div class="fb-block-illustration">
+									<a href="#">
+										<span data-srcset="http://dummyimage.com/480x270/000/fff.png 480w, 
+										http://dummyimage.com/628x354/000/fff.png 768w, 
+										http://dummyimage.com/349x196/000/fff.png 1x, 
+										http://dummyimage.com/628x354/000/fff.png 480w 2x, 
+										http://dummyimage.com/698x392/000/fff.png 2x" 
+										class="js-fb-img fb-img-lazy fb-img-ratio-16-9" data-img-type="lazy"></span>
+									</a>
+								</div>
+								<div class="fb-block-content-wrapper">
+									<ul class="fb-block-list">
+										<li>Earn Miles every step of the way.</li>
+										<li>Enjoy exclusive services and benefits.</li>
+										<li>Spend Miles with more than 100 partners – in the air and on the ground.</li>
+									</ul>
+								</div>
+								<a href="#" class="fb-btn fb-btn-primary"><span>Join now, it's free</span></a>
+							</div>
+						</div>
+						<div class="grid-33 tablet-grid-33">
+							<div class="grid-column">
+								<h3 class="fb-h4">Questions?</h3>
+								<div class="fb-block-illustration">
+									<a href="#">
+										<span data-srcset="http://dummyimage.com/480x270/000/fff.png 480w, 
+										http://dummyimage.com/628x354/000/fff.png 768w, 
+										http://dummyimage.com/349x196/000/fff.png 1x, 
+										http://dummyimage.com/628x354/000/fff.png 480w 2x, 
+										http://dummyimage.com/698x392/000/fff.png 2x" 
+										class="js-fb-img fb-img-lazy fb-img-ratio-16-9" data-img-type="lazy"></span>
+									</a>
+								</div>
+								<div class="fb-block-content-wrapper">
+									<p class="fb-block-paragraph">Do you want to know more about Flying&nbsp;Blue? Or do you have questions regarding your membership? Check out our support page.</p>
+								</div>
+								<a href="#" class="fb-btn fb-btn-primary"><span>Support page</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+
+
+</main>
+<footer class="fb-footer">
+
+	<!-- Start Navigation -->
+	<div class="fb-footer-navigation">
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="grid-25 fb-footer-navigation-block">
+					<h2 class="fb-footer-navigation-heading js-expandmore">About</h2>
+					<ul class="fb-footer-navigation-list js-to_expand">
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+					</ul>
+				</div>
+				<div class="grid-25 fb-footer-navigation-block">
+					<h2 class="fb-footer-navigation-heading js-expandmore">Products</h2>
+					<ul class="fb-footer-navigation-list js-to_expand">
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+					</ul>
+				</div>
+				<div class="grid-25 fb-footer-navigation-block">
+					<h2 class="fb-footer-navigation-heading js-expandmore">Support</h2>
+					<ul class="fb-footer-navigation-list js-to_expand">
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+					</ul>
+				</div>
+				<div class="grid-25 fb-footer-navigation-block">
+					<h2 class="fb-footer-navigation-heading js-expandmore">Contact</h2>
+					<ul class="fb-footer-navigation-list js-to_expand">
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+						<li class="fb-footer-navigation-listitem"><a href="#" class="fb-footer-navigation-link">Some link goes here</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> 
+	</div>
+	<!-- End Navigation -->
+	
+	<!-- Freddie Awards -->
+
+	<style>
+		.fb-freddieawards .line{
+			border-top: 1px solid #979797; 
+			border-bottom: 1px solid #979797; 
+			font-size: 16px;
+
+			padding: 15px;
+		}
+		.fb-freddieawards p{
+			display: inline-table;
+			line-height: 1.2;
+		}
+		.freddieawards-logo{
+			width: 100px;
+			height: 100px;
+			display: inline;
+			vertical-align: middle;
+			margin-right: 10px;
+			line-height: 0;
+		}
+		@media all and (max-width: 900px){
+			.freddieawards-logo{
+				display: block;
+				margin: 0 auto 5px;
+			}
+			.fb-freddieawards p{
+				margin-bottom: 5px;
+			}
+		}
+	</style>
+	<div class="fb-freddieawards">
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="grid-100 text-center">
+					<div class="line">
+						<img src="2.0.2/img/freddie/Freddie-Awards-de.jpg" alt="Freddie Awards 2016" class="freddieawards-logo">
+						<p>You have elected Flying Blue “Programme of the Year” for four consecutive years.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Start Airline Logos -->
+	<section class="fb-footer-airlines">
+		<div class="grid-container">
+			<div class="grid-row">
+				<div class="grid-90 push-5 tablet-grid-90 tablet-push-5 text-center">
+					<p class="footer-legal-note">Flying Blue is the loyalty programme of</p>
+				</div>
+			</div>
+			<div class="grid-row">
+				<div class="grid-100">
+					<ul class="footer-logos footer-logos--firstrow">
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-AF","url":"/earn-miles/airlines/partner/14/air-france.html" }' class="footer-logo-link footer-logo-airfrance js-fb-measure" href="/earn-miles/airlines/partner/14/air-france.html"><img src="2.0.2/img/layout/pixel.gif" alt="Air France"></a></li>
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-klm","url":"/earn-miles/airlines/partner/39/klm.html" }' class="footer-logo-link footer-logo-klm js-fb-measure" href="/earn-miles/airlines/partner/39/klm.html"><img src="2.0.2/img/layout/pixel.gif" alt="KLM"></a></li>
+					</ul>	
+					<ul class="footer-logos footer-logos--secondrow">
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-aircalin","url":"/earn-miles/airlines/partner/171/aircalin.html" }' class="footer-logo-link footer-logo-aircalin js-fb-measure" href="/earn-miles/airlines/partner/171/aircalin.html"><img src="2.0.2/img/layout/pixel.gif" alt="Aircalin"></a></li>
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-HOP","url":"/earn-miles/airlines/partner/211/hop.html" }' class="footer-logo-link footer-logo-hop js-fb-measure" href="/earn-miles/airlines/partner/211/hop.html"><img src="2.0.2/img/layout/pixel.gif" alt="JOON"></a></li>
+
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-JOON","url":"https://www.airfrance.fr/FR/en/local/joon/nouvelle-compagnie.htm" }' class="footer-logo-link footer-logo-joon js-fb-measure" href="https://www.airfrance.fr/FR/en/local/joon/nouvelle-compagnie.htm"><img src="2.0.2/img/layout/pixel.gif" alt="JOON"></a></li>
+						
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-kenyaairways","url":"/earn-miles/airlines/partner/189/kenya-airways.html" }' class="footer-logo-link footer-logo-kenyaairways js-fb-measure" href="/earn-miles/airlines/partner/189/kenya-airways.html"><img src="2.0.2/img/layout/pixel.gif" alt="Kenya Airways"></a></li>
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-tarom","url":"/earn-miles/airlines/partner/196/tarom.html" }' class="footer-logo-link footer-logo-tarom js-fb-measure" href="/earn-miles/airlines/partner/196/tarom.html"><img src="2.0.2/img/layout/pixel.gif" alt="TAROM"></a></li>
+						<li class="footer-logos-listitem"><a data-measure='{ "type":"footer","context":"logo-transavia","url":"/spend-miles/airlines/partner/233/transavia.html" }' class="footer-logo-link footer-logo-transavia js-fb-measure" href="/spend-miles/airlines/partner/233/transavia.html"><img src="2.0.2/img/layout/pixel.gif" alt="Transavia"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Airline Logos -->
+
+	<!-- Start Privacy Policy -->
+	<div class="fb-footer-privacy" style="display:none;">
+		<ul class="fb-footer-privacy-list">
+			<li class="fb-footer-privacy-listitem"><a href="http://www.airfrance.fr/FR/en/local/transverse/footer/edito_preambule.htm" target="_blank" class="fb-footer-privacy-link">Air&nbsp;France Privacy Policy</a></li>
+			<li class="fb-footer-privacy-listitem"><a href="http://www.klm.com/travel/nl_en/customer_support/privacy_policy/privacy_policy.htm" target="_blank" class="fb-footer-privacy-link">KLM Privacy Policy</a></li>
+			<li class="fb-footer-privacy-listitem"><a href="http://www.flyingblue.com/terms-and-conditions.html" target="_blank" class="fb-footer-privacy-link">Terms &amp; Conditions</a></li>
+		</ul>
+	</div>
+	<!-- End Privacy Policy -->
+
+	<!-- Start Footnote -->
+	<div class="fb-footer-footnote">
+		<div class="fb-footer-container">
+			<div class="fb-footer-footnote-wrapper">
+				Flying Blue is founded by AIR FRANCE KLM. Flying Blue is also the frequent traveller programme of Kenya Airways, Tarom, Aircalin, HOP!, Transavia.
+			</div>
+		</div>
+	</div>
+	<!-- End Footnote -->
+
+</footer>
+<!-- End Footer -->
+
+<!-- Legals and Terms -->
+<div class="section fb-legal">
+	<div class="grid-container">
+		<div class="grid-row">
+			<div class="grid-50">
+				&copy; 2015 All Rights Reserved Flying&nbsp;Blue.
+
+			</div>
+			<div class="grid-50">
+				<ul class="legal-list">
+					<li><a href="">Terms &amp; Conditions</a></li>
+					<li><a href="">Air France Privacy Policy</a></li>
+					<li><a href="">KLM Privacy Policy</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Legals and Terms -->
+</div>
+</div>
+<div class="fb-scroll-back-to-top">
+	<span class="js-fb-scrolltop"></span>
+</div>
+
+
+<!-- OUR JAVASCRIPT SETUP -->
+<script src="2.0.2/js/plugins.js"></script>
+<script src="2.0.2/js/custom.js"></script>
+<script src="2.0.2/js/bundle.js"></script>
+
+</body>
+</html>

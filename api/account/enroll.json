@@ -1,0 +1,5 @@
+{
+    "status" : "error",
+    "errors" : [{"fieldname" : "zipcode", "message" : "JE POSTCODECODE IS NIET GOEHOED"},{"fieldname" : "pwd", "message" : "Wachtwooooord foutje.."}],
+    "general" : "Er is een fout opgetreden"
+}

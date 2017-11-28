@@ -1,0 +1,5 @@
+{
+	"status" : "error",
+	"errors" : [{"fieldname" : "uid", "message" : "Username foutje.."},{"fieldname" : "pwd", "message" : "Wachtwooooord foutje.."}],
+	"general" : "Er is een fout opgetreden"
+}
