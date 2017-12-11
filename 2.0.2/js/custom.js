@@ -979,3 +979,13 @@ $('.append-button').click(function()
 	$(".append-test").toggleClass("animate-ok");
 });
 
+// POPUP
+
+$('*[data-toggle="popup"]').click(function()
+{
+	var popuptarget = $(this).data('target');
+	console.log(popuptarget);
+
+	$(popuptarget).fadeToggle();
+});
+

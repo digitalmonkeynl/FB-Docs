@@ -6596,6 +6596,72 @@ p.lined:after {
     white-space: nowrap; }
 
 
+.fb-popup {
+  max-width: 650px;
+  width: 90%;
+  display: none;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.5); }
+
+  .fb-popup-close {
+    background: none;
+    border: none;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-left: 20px;
+    -ms-transform: translate(0%, -50%);
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%); }
+
+    .fb-popup-close img {
+      width: 15px;
+      height: auto; }
+
+  .fb-popup-header {
+    background: #3277D1;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px; }
+
+    @media (max-width: 600px) {
+      .fb-popup-header {
+        font-size: 14px; }
+ }
+
+  .fb-popup-content {
+    font-size: 18px;
+    padding: 20px 30px;
+    text-align: center; }
+
+    @media (max-width: 600px) {
+      .fb-popup-content {
+        font-size: 12px;
+        padding: 15px 20px; }
+ }
+
+    .fb-popup-content p {
+      margin-bottom: 20px; }
+
+    .fb-popup-content .fb-button {
+      display: block;
+      min-width: 200px;
+      margin: 0 auto 20px; }
+
+
 .fb-account-header {
   background: #c3bcab;
   color: #fff;
