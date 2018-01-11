@@ -17488,6 +17488,12 @@ img:not([src]) {
   border: 1px solid #000; }
 
 
+.img-inline {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle; }
+
+
 .fb-award-icon {
   position: absolute;
   z-index: 10;
