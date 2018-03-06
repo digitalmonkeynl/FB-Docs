@@ -5741,7 +5741,7 @@ p.lined:after {
 
 
 .fb-notification {
-  background-color: #3277d1;
+  background-color: #3277d1 !important;
   color: #fff;
   position: relative;
   font-size: 14px;
@@ -5756,6 +5756,11 @@ p.lined:after {
 
   .fb-notification--white {
     background-color: #fff; }
+
+  .fb-notification a {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff; }
 
   .fb-notification-close {
     position: absolute;
@@ -6657,7 +6662,6 @@ p.lined:after {
       margin-bottom: 20px; }
 
     .fb-popup-content .fb-button {
-      display: block;
       min-width: 200px;
       margin: 0 auto 20px; }
 
@@ -26324,6 +26328,32 @@ a.fb-support-cat-active {
   text-align: center; }
 
 
+.mc-alert {
+  max-width: 75%;
+  font-size: 14px;
+  color: #696E88;
+  margin: 0 auto 40px;
+  background: transparent url(../img/layout/alert.svg) no-repeat left center scroll;
+  background-size: 36px auto;
+  padding: 0 50px; }
+
+  @media all and (max-width: 600px) {
+    .mc-alert {
+      background-position: center top;
+      padding: 40px 0;
+      max-width: 90%; }
+ }
+
+  .mc-alert--block {
+    max-width: 100%;
+    text-align: left; }
+
+
+.table-auto {
+  width: 100%;
+  max-width: 400px; }
+
+
 .charity-hero {
   min-height: 460px;
   position: relative;
@@ -27311,7 +27341,7 @@ a.fb-support-cat-active {
 .ps-banner {
   background-color: #faf59c;
   color: #050e39;
-  font: 600 normal 17px/1 "helvetica","arial","sans-serif";
+  font: 400 normal 15px/1 "helvetica","arial","sans-serif";
   text-align: center;
   padding: 25px 0;
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);

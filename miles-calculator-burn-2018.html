@@ -487,7 +487,7 @@
     <div class="grid-container">
         <div class="grid-row">
             <div class="grid-100 text-center">
-                <h2 class="h2-l-28 fb-margin-bottom-30">Calculate the minimum amount of Miles I need for an award ticket</h2>
+                <h2 class="h2-l-28 fb-margin-bottom-30">Calculate the minimum amount of Miles I need for an award ticket *</h2>
             </div>
         </div>
         <form class="fb-form" method="" action="" data-components=''>
@@ -500,40 +500,19 @@
                     </div>
                     <div class="fb-input-group">
                         <label for="to">To</label> 
-                        <input type="text" class="fb-input-control fb-form-text-input" id="to" value="" placeholder="Tel Aviv (TLC)" required="required">
+                        <input type="text" class="fb-input-control fb-form-text-input" id="to" value="" placeholder="Tel Aviv (TLV)" required="required">
                         <span class="bar"></span>
                     </div>
-                    <div class="fb-input-group">
-                        <label for="to">When do you want to book?</label> 
-                        <label class="radio-container">Untill XX June 2018 (in the current Flying&nbsp;Blue redemption offer)
-                          <input type="radio" name="foo" value="" checked="checked">
-                          <span class="radio-checkmark"></span>
-                        </label>
-                        <label class="radio-container">After XX June 2018 (in the current Flying&nbsp;Blue redemption offer)
-                          <input type="radio" name="foo">
-                          <span class="radio-checkmark"></span>
-                        </label>
-                    </div>
-                    <div class="fb-input-group">
-                        <label for="airline">Airline</label>
-                        <select class="fb-form-select" name="" id="airline">
-                            <option value="" selected="selected">Air France</option>
-                            <option value="">KLM</option>
-                            <option value="">China Airlines</option>
-                        </select>
-                    </div>
-                    <div class="fb-input-group">
-                        <label for="cabin">Cabin Class</label>
-                        <select class="fb-form-select" name="" id="cabin">
-                            <option value="" selected="selected">Select</option>
-                            <option value="">Economy Class</option>
-                            <option value="">Business CLass</option>
-                        </select>
-                    </div>
+
+
                 </div>
             </div>
             <div class="grid-row">
                 <div class="grid-100 text-center">
+                     <div class="mc-alert">
+                        * Miles prices are 'starting from' prices and apply to tickets booked as of <strong>12 June 2018</strong>.<br />
+Please go the Award Booking Tool on www.airfrance.com or www.klm.com to view the Miles prices before this date. 
+                    </div>
                     <button class="fb-button fb-button--darkblue fb-button--save">Calculate</button>
                 </div>
             </div>
@@ -559,108 +538,49 @@
             <div class="grid-100">
                 <h3 class="big">Flying Blue Miles Calculator results</h3>
                 <p class="big">Paris (CDG) - Tel Aviv (TLV)</p>
-                <hr class="fb-hr">
+                <hr class="fb-hr fb-margin-top-20">
                 
-                <div class="mc-results-item hide-on-mobile">
-                    <div class="mc-results-summary">
-                        <div><strong>Airline:</strong> AF</div>
-                        <div><strong>Cabin Class:</strong> Economy</div>
-                    </div>
-                    <table class="mc-results-table mc-results-table--burn">
-                        <caption class="sr-only">table title and/or explanatory text</caption>
-                        <thead>
-                            <tr>
-                                <th><span></span></th>
-                                <th>Award ticket</th>
-                                <th>Airline</th>
-                                <th>Cabin class</th>
-                                <th>Award Miles starting from</th>
-                                <th>&nbsp;</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td valign="center" class="mc-results-table-tier"><strong>Classic</strong></td>
-                                <td valign="center" class="">AF</td>
-                                <td valign="center" class="">Economy</td>
-                                <td valign="center" class="mc-results-table-ammount"><span>45 000</span></td>
-                                <td valign="center" class=""><a href="#" title="" class="fb-button fb-button--darkblue">Book</a></td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td valign="center" class="mc-results-table-tier"><strong>Flex</strong></td>
-                                <td valign="center" class="">AF</td>
-                                <td valign="center" class="">Economy</td>
-                                <td valign="center" class="mc-results-table-ammount"><span>45 000</span></td>
-                                <td valign="center" class=""><a href="#" title="" class="fb-button fb-button--darkblue">Book</a></td>
-                            </tr>
-
-                        </tbody>
-                    </table>
-                </div>
-                <div class="mc-results-item show-on-mobile">
-                    <table class="mc-results-table--burn-mobile">
-                        <caption class="sr-only">table title and/or explanatory text</caption>
-                        <thead>
-                            <tr>
-                                <th colspan="2">CLASSIC</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td colspan="2" class="summary">
-                                    Airline: AF<br />
-                                    Cabin class: Economy<br />
-                                    Award type: Classic
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="awardmiles">
-                                    Award Miles starting from
-                                </td>
-                                <td valign="center" class="mc-results-table-ammount text-center"><span>45 000</span></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><a href="#" title="" class="fb-margin-top-20 fb-button fb-button--darkblue fb-button--block-on-mobile">Book</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="mc-results-item show-on-mobile">
-                    <table class="mc-results-table--burn-mobile">
-                        <caption class="sr-only">table title and/or explanatory text</caption>
-                        <thead>
-                            <tr>
-                                <th colspan="2">FLEX</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td colspan="2" class="summary">
-                                    Airline: AF<br />
-                                    Cabin class: Economy<br />
-                                    Award type: Classic
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="awardmiles">
-                                    Award Miles starting from
-                                </td>
-                                <td valign="center" class="mc-results-table-ammount text-center"><span>45 000</span></td>
-                            </tr>
-                            <tr>
-                                <td colspan="2"><a href="#" title="" class="fb-margin-top-20 fb-button fb-button--darkblue fb-button--block-on-mobile">Book</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+               
+                    <table class="mc-results-table mc-results-table--burn table-auto">
+                    <caption class="sr-only">table title and/or explanatory text</caption>
+                    <thead>
+                        <tr>
+                            <th>Cabin class</th>
+                            <th>Award Miles starting from</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td valign="center" class="">Economy</td>
+                            <td valign="center" class="mc-results-table-ammount"><span>20 000</span></td>
+                        </tr>
+                        <tr>
+                            <td valign="center" class="">Premium Economy</td>
+                            <td valign="center" class="mc-results-table-ammount"><span>45 000</span></td>
+                        </tr>
+                        <tr>
+                            <td valign="center" class="">Business</td>
+                            <td valign="center" class="mc-results-table-ammount"><span>60 000</span></td>
+                        </tr>
+                        <tr>
+                            <td valign="center" class="">First</td>
+                            <td valign="center" class="mc-results-table-ammount"><span>180 000</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+               
+                
+               
 
                 
 
 
                 <hr class="fb-hr fb-margin-bottom-40 fb-margin-top-40">
                 <div class="mc-results-copy">
+
+                    <div class="mc-alert mc-alert--block">
+                        Miles prices are ‘starting from’ prices and apply to tickets booked as of <strong>12 June 2018</strong>. Please go to the Award Booking Tool on <a href="#">www.airfrance.com</a> or <a href="#">www.klm.com</a>. to view the Miles prices before this date.
+                    </div>
                     <p><strong>Please note the following conditions regarding spending Miles:</strong></p>
                     <ul>
                         <li>The rules regarding spending Miles are subject to change.</li>
